@@ -40,18 +40,21 @@ public class A020_EstruturaIf {
         in.nextLine();
         System.out.println("-------------------------------------------------------");
 
-        // Testando IF's aninhados
-        System.out.println("Como está o clima (1 - SOL | 2 - FRIO | 3 - NORMAL) ? ");
-        int clima = in.nextInt();
-
-        if(clima == 1) {
-            System.out.println("Clima quente: Sem camisa.");
-        } else if(clima == 2){
-            System.out.println("Clima frio: Camisa de frio.");
-        }else if(clima == 3) {
-            System.out.println("Clima normal: Camiseta.");
-        }else {
-            System.out.println("Valor inválido para o clima.");
+        // Testando IF's aninhados - Os IF's internos só serão executados caso a condição "valor" seja satisfatória
+        if(valor > 300) {
+            System.out.println("Como está o clima (1 - SOL | 2 - FRIO | 3 - NORMAL) ? ");
+            int clima = in.nextInt();
+            if (clima == 1) {
+                System.out.println("Clima quente: Sem camisa.");
+            } else if (clima == 2) {
+                System.out.println("Clima frio: Camisa de frio.");
+            } else if (clima == 3) {
+                System.out.println("Clima normal: Camiseta.");
+            } else {
+                System.out.println("Valor inválido para o clima.");
+            }
+        } else {
+            System.out.printf("Com %.2f não dá para sair :(\n", valor);
         }
     }
 }
