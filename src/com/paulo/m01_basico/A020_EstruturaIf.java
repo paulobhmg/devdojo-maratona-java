@@ -56,5 +56,29 @@ public class A020_EstruturaIf {
         } else {
             System.out.printf("Com %.2f não dá para sair :(\n", valor);
         }
+        in.nextLine();
+        System.out.println("--------------------------------------------");
+
+        // Variáveis locais deverão ser obrigatóriamente inicializadas anes de serem referenciadas no código
+        System.out.print("Informe sua idade: ");
+        idade = in.nextInt();
+        String categoriaInicializada = "";
+        String categoriaNaoInicializada;
+
+        if(idade < 15) {
+            categoriaNaoInicializada = categoriaInicializada = "Infantil";
+        }else if(idade >= 15 && idade <= 18) {
+            categoriaNaoInicializada = categoriaInicializada = "Juvenil";
+        }else {
+            categoriaInicializada = "Adulto";
+        }
+        System.out.println("Categoria: " + categoriaInicializada);
+
+        /* O comando abaixo está incorreto, pois é possível que a aplicação não entre em nenhum dos dois blocos IF para
+           que define uma categoria. Sendo assim, a variável não receberia nenhum valor. Portanto, seria uma variável
+           não inicializada.
+
+           System.out.println("Categoria: " + categoriaNaoInicializada);
+         */
     }
 }
