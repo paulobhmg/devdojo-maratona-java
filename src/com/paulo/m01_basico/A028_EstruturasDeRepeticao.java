@@ -24,6 +24,11 @@ public class A028_EstruturasDeRepeticao {
         } while(i <= 10);
         System.out.println();
 
+        // Nesse exemplo, o do-while irá executar o laço, mesmo que a condição seja falsa. Só executa uma vez.
+        do {
+            System.out.println("laço do-while com condição falsa.");
+        }while (false);
+
         // for irá executar o código X vezes, com base no parâmetro passado na assinatura do laço
         for(i = 0; i <= 10; i++){
             System.out.print(i);
