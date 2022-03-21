@@ -14,6 +14,9 @@ package com.paulo.m01_basico;
 public class A033_Arrays {
     public static void main(String[] args) {
         String[] nomes = new String[5];
+        int[] arrayTeste;
+
+        // System.out.println(arrayTeste); Assim como uma variável primitiva, um array não pode ser acessado sem ser inicializado.
 
         // Acessando o index de um Array:
         nomes[0] = "Marilene";
