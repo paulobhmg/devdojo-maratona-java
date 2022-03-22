@@ -19,4 +19,12 @@ public abstract class Calculadora {
     public static double subtrair(double numero1, double numero2){
         return numero1 - numero2;
     }
+
+    public static void ImprimeDivisao(double divisor, double dividendo){
+        if(dividendo == 0){
+            System.out.println("Não é permitido divisão por zero.");
+            return;
+        }
+        System.out.println(divisor / dividendo);
+    }
 }
