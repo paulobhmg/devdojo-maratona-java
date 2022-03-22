@@ -1,4 +1,4 @@
-package com.paulo.m02_orientacaoObjetos.a.introducao;
+package com.paulo.m02_orientacaoObjetos.a.introducao.domain;
 
 public class Professor {
     private int codigo;

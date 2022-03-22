@@ -1,6 +1,8 @@
 package com.paulo.m02_orientacaoObjetos.a.introducao;
 
-public class A046_OrientacaoObjetos {
+import com.paulo.m02_orientacaoObjetos.a.introducao.domain.Aluno;
+
+public class A043_OrientacaoObjetos {
     public static void main(String[] args) {
         Aluno marilene = new Aluno(59, "Marilene", 'F');
         Aluno tiago = new Aluno(37, "Tiago", 'M');
