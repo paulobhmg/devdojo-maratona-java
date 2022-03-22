@@ -7,9 +7,9 @@
    feitas em argumentos do tipo REFERENCE refletirão no objeto ao qual esão fazendo referência, alterando seu estado.
  */
 
-package com.paulo.m02_orientacaoObjetos.a.introducao;
+package com.paulo.modulo02_orientacaoObjetos.a.introducao;
 
-import com.paulo.m02_orientacaoObjetos.a.introducao.domain.Aluno;
+import com.paulo.modulo02_orientacaoObjetos.a.introducao.domain.Aluno;
 
 public class A050_TestaPassagemDeParametros {
     public static void main(String[] args) {

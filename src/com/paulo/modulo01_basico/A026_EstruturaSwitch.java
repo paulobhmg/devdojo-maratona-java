@@ -1,6 +1,4 @@
-package com.paulo.m01_basico;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package com.paulo.modulo01_basico;
 
 public class A026_EstruturaSwitch {
     public static void main(String[] args) {

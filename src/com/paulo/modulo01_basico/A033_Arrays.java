@@ -9,7 +9,7 @@
    - tipos referência (objetos) = null
  */
 
-package com.paulo.m01_basico;
+package com.paulo.modulo01_basico;
 
 public class A033_Arrays {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.paulo.m02_orientacaoObjetos.a.introducao.domain;
+package com.paulo.modulo02_orientacaoObjetos.a.introducao.domain;
 
 import java.util.Objects;
 

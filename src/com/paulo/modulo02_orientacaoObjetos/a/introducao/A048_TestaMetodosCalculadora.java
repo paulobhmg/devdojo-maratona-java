@@ -1,6 +1,6 @@
-package com.paulo.m02_orientacaoObjetos.a.introducao;
+package com.paulo.modulo02_orientacaoObjetos.a.introducao;
 
-import com.paulo.m02_orientacaoObjetos.a.introducao.domain.Calculadora;
+import com.paulo.modulo02_orientacaoObjetos.a.introducao.domain.Calculadora;
 
 public class A048_TestaMetodosCalculadora {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.paulo.m02_orientacaoObjetos.a.introducao;
+package com.paulo.modulo02_orientacaoObjetos.a.introducao;
 
-import com.paulo.m02_orientacaoObjetos.a.introducao.domain.Aluno;
+import com.paulo.modulo02_orientacaoObjetos.a.introducao.domain.Aluno;
 
 public class A043_OrientacaoObjetos {
     public static void main(String[] args) {

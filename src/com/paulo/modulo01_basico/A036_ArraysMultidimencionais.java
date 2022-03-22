@@ -5,7 +5,7 @@
    - Em uma matriz, o array base faz referência para outro array. Por exemplo, uma matriz [2][3], o primeiro [] faz
      referência a 2 arrays de 3 posições. Ou seja, cada posição é um array de 2 posições. */
 
-package com.paulo.m01_basico;
+package com.paulo.modulo01_basico;
 
 public class A036_ArraysMultidimencionais {
     public static void main(String[] args) {

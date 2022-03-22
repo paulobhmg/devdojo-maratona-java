@@ -1,4 +1,4 @@
-package com.paulo.m01_basico;
+package com.paulo.modulo01_basico;
 
 public class A018_OperadoresLogicosERelacionais {
     public static void main(String[] args) {
