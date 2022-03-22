@@ -3,10 +3,10 @@ package com.paulo.m02_orientacaoObjetos.a.introducao.domain;
 import java.util.Objects;
 
 public class Aluno {
-    private int idade;
-    private String nome;
-    private char sexo;
-    private Professor professor;
+    int idade;
+    String nome;
+    char sexo;
+    Professor professor;
 
     public Aluno() {}
 
