@@ -1,4 +1,4 @@
-package com.paulo.modulo03_exceptions;
+package com.paulo.modulo03_tratamento_de_erros;
 
 /* Quando falamos de possíveis erros no sistema, devemos entender que existe a seguinte hierarquia.
  1 - Classe Trowable: Basicamente a classe pai
