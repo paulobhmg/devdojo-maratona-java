@@ -4,7 +4,7 @@ package com.paulo.modulo04_classes_utilitarias;
    por referência, além de permitir a utilização desses tipos em Coleções de dados, o que não é permitido com os tipos
    primitivos. Inicializar um tipo Wrapper com um valor primitivo é conhecido como autoboxing, e quando inicializamos
    um tipo primitivo com o valor de um Wrapper, é conhecido como unboxing. Ambos são feitos implicitamente pelo Java. */
-public class A108_ClassesWrapper {
+public class A107_ClassesWrapper {
     public static void main(String[] args) {
         // Todas as declarações abaixo são autoboxing.
         Byte byteW = 127;
