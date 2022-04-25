@@ -30,5 +30,14 @@ public class A135_CaracterCoringa {
         while(matcher.find()){
             System.out.printf("%s", matcher.group());
         }
+
+        String cpf = entrada.nextLine();
+        regex = Pattern.compile("[0-9]{3}\\.[0-9]{3}\\.[0-9]{3}-[0-9]{2}");
+        matcher = regex.matcher(cpf);
+
+        System.out.println(cpf.matches(regex.toString()));
+        while(matcher.find()){
+            System.out.printf("%s", matcher.group());
+        }
     }
 }
