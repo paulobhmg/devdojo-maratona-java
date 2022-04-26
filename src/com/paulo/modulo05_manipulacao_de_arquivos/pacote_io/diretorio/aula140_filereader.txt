@@ -1,0 +1,8 @@
+Aqui será feita a leitura de um arquivo.
+Para ler um arquivo, utiliza-se o método read() do FileWriter, que é sobrecarregado.
+
+Na primeira opção, o cursor é posicionado na posição da primeira letra do arquivo e deve-se percorrer o arquivo, letra a letra.
+Quando o cursor retornar o valor -1, significa que chegamos ao fim do arquivo.
+
+Na segunda opção, é necessário criar um array de char, que será passado como parâmetro para o o método read(), dessa forma,
+o método read() irá popular o array com o conteúdo existente no arquivo.
