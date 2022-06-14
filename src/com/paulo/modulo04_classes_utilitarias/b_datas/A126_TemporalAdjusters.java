@@ -2,14 +2,10 @@ package com.paulo.modulo04_classes_utilitarias.b_datas;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.time.Month;
 import java.time.temporal.ChronoField;
 import java.time.temporal.TemporalAdjusters;
 
-/* A classe TemporalAdjusters permite fazer um ajuste no tempo e permite fazer outras verifações.
-
-
- */
+/* A classe TemporalAdjusters permite fazer um ajuste no tempo e permite fazer outras verifações. */
 public class A126_TemporalAdjusters {
     public static void main(String[] args) {
         // Uma data também pode ser ajustada apartir do withDays, withHours ou withMonth;

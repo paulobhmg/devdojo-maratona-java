@@ -25,10 +25,10 @@ public class A125_ChronoUnit {
         // Utilizando o until para LocalDate na primeira opçao, passando uma data e um TemporalUnit.
         System.out.println(now.until(ani, ChronoUnit.MONTHS));
         System.out.println(now.until(ani, ChronoUnit.DAYS));
+        System.out.println("---------------------------");
 
         // Utilizando o until para LocalDate na segunda opçao, passando apenas uma data para comparaçao
         Period period = now.until(ani);
-
         System.out.printf("%d anos, %dm, %dd\n", period.getYears(), period.getMonths(), period.getDays());
         System.out.println("---------------------------------");
 
