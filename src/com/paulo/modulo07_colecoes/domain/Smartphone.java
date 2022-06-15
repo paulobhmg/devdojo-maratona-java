@@ -31,10 +31,7 @@ public class Smartphone {
 
     @Override
     public String toString() {
-        return "Smartphone{" +
-                "serialNumber='" + serialNumber + '\'' +
-                ", model='" + model + '\'' +
-                '}';
+        return "{" +"serial='" + serialNumber + '\'' + ", model='" + model + '\'' + '}';
     }
 
     /* Existem algumas regras para o método equals:

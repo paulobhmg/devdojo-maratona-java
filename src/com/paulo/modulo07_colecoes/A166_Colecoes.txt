@@ -1,0 +1,9 @@
+Utilizamos coleções quando precisamos armazenar conjuntos de dados.
+O pacote de coleções do Java inclui várias interfaces com funcionalidades e especificações diferentes, fornecendo
+métodos performáticos para operações dos dados. A partir dessas interfaces obtemos a capacidade de trabalhar orientados
+à interfaces, ou seja, ao definir uma implementação de coleção, essa poderá ser alterada para outra, caso necessário.
+
+Coleções de dados podem ser ordenadas ou sortidas.
+Ao dizer que uma lista é ordenada, entende-se que os dados estão armazenados de forma ordenada e é possível saber exatamente
+qual é a posição de determinado dado em uma lista. Já as listas sortidas, não temos controle sobre a posição dos dados,
+porém há o ganho de performance, pois o Java não precisa utilizar recursos com sua ordenação.
