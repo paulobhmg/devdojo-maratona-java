@@ -19,6 +19,7 @@ package com.paulo.modulo02_orientacaoObjetos.b_metodos.domain;
 public class Trator {
     private String marca;
     private int ano;
+    private Integer velocidadeAtual = 0;
 
     // Construtor padrao - Nao e necessario criar se nao houver um construtor explicito.
     public Trator(){}
@@ -35,7 +36,7 @@ public class Trator {
     }
 
     public String toString(){
-        return "Marca: " + marca + ", ano: " + ano;
+        return "Marca: " + marca + ", ano: " + ano  + ", velocidade atual: " + velocidadeAtual;
     }
 
     public String getMarca() {
@@ -52,5 +53,17 @@ public class Trator {
 
     public void setAno(int ano) {
         this.ano = ano;
+    }
+
+    public void andar() {
+        this.velocidadeAtual += 10;
+    }
+
+    public Integer getVelocidadeAtual() {
+        return velocidadeAtual;
+    }
+
+    public void setVelocidadeAtual(Integer velocidadeAtual) {
+        this.velocidadeAtual = velocidadeAtual;
     }
 }
