@@ -16,4 +16,6 @@ public class CarComparators {
     public static int compareByColor(Car c1, Car c2) {
         return c1.getColor().compareToIgnoreCase(c2.getColor());
     }
+
+    public int compareByYearNonStatic(Car c1, Car c2) { return Integer.compare(c1.getYear(), c2.getYear()); }
 }

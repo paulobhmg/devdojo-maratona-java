@@ -10,9 +10,13 @@ public class Anime implements Comparable<Anime> {
     public Anime() {
     }
 
-    public Anime(Long id, String name, Integer episodes) {
+    public Anime(Long id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public Anime(Long id, String name, Integer episodes) {
+        this(id,name);
         this.episodes = episodes;
     }
 
