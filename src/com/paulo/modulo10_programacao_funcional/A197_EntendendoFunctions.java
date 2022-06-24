@@ -14,7 +14,7 @@ import java.util.function.Function;
    3 - Function: Recebe um objeto como parâmetro ,executa alguma ação e retorna um novo objeto, de qualquer tipo. */
 public class A197_EntendendoFunctions {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
         System.out.println(cars);
 
         List<String> listOfCarColors = makesNewObjectList(cars, car -> car.getColor());

@@ -10,7 +10,7 @@ import java.util.List;
    porém só são permitidas quando dentro da expressão lambda temos apenas uma chamada à métodos. */
 public class A198_MethodReferenceToAbstractMethods {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
         System.out.println("Car list unorganized: \n" + cars);
         System.out.println("--------------------");
 

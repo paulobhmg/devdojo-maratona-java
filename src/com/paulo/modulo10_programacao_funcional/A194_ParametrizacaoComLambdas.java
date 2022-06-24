@@ -15,7 +15,7 @@ import java.util.function.Predicate;
    Dessa forma, independente da condição exigida, o responsável por fazer o teste é o Predicate. */
 public class A194_ParametrizacaoComLambdas {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
 
         // Interface Predicate criada por desenvolvedor
         List<Car> greenCars = filter(cars, new ICarPredicate() {

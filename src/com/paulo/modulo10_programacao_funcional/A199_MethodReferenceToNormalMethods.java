@@ -16,7 +16,7 @@ import java.util.function.Function;
    referenciar métodos estáticos. */
 public class A199_MethodReferenceToNormalMethods {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
         CarComparators comparators = new CarComparators();
 
         // Aqui estamos utilizando um ReferenceMethod a partir da instância de um objeto.

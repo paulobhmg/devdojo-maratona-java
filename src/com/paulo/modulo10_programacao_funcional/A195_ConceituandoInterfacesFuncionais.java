@@ -3,7 +3,6 @@ package com.paulo.modulo10_programacao_funcional;
 import com.paulo.modulo10_programacao_funcional.domain.Car;
 import com.paulo.modulo10_programacao_funcional.domain.ListGenerator;
 
-import java.util.Comparator;
 import java.util.List;
 
 /* Lambdas são basicamente classes anônimas que utilizam uma sintaxe simplificada, afim de deixar o código mais limpo e
@@ -17,7 +16,7 @@ import java.util.List;
    Ver detalhes da sintaxe lambda na classe ICarPredicate. */
 public class A195_ConceituandoInterfacesFuncionais {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
         cars.sort((o1, o2) -> Integer.compare(o1.getYear(), o2.getYear()));
 
         System.out.println(cars);

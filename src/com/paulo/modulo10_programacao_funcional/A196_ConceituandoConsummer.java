@@ -10,7 +10,7 @@ import java.util.function.Consumer;
    efetuar um teste booleando, executa uma ação do tipo void sobre o objeto. */
 public class A196_ConceituandoConsummer {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
 
         // Para cada item da lista, o consumer irá executar o método System.out.println() , passando-o como parâmetro.
         forEach(cars, car -> System.out.println(car));

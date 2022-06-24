@@ -13,7 +13,7 @@ import java.util.List;
    Sendo assim, podemos utilizar a programação funcional para fazer isso. */
 public class A193_ParametrizandoComportamentos {
     public static void main(String[] args) {
-        List<Car> cars = ListGenerator.GenerateCarList();
+        List<Car> cars = ListGenerator.generateCarsList();
 
         List<Car> greenCars = filterByGreenColor(cars);
         System.out.println("Green cars: " + greenCars);
