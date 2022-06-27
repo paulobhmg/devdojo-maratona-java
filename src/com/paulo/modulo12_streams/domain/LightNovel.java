@@ -7,6 +7,7 @@ public class LightNovel {
     private String title;
     private Double price;
     private LightNovelCategoryEnum category;
+    private LightNovelPromotionEnum promotion;
 
     public LightNovel() {}
 
@@ -25,6 +26,11 @@ public class LightNovel {
         this.category = category;
     }
 
+    public LightNovel(Long id, String title, Double price, LightNovelCategoryEnum category, LightNovelPromotionEnum promotion) {
+        this(id, title, price, category);
+        this.promotion = promotion;
+    }
+
     @Override
     public String toString() {
         return "LightNovel{" +
@@ -32,6 +38,7 @@ public class LightNovel {
                 ", title='" + title + '\'' +
                 ", price=" + price +
                 ", category=" + (category != null ? category.getType() : "undefine") +
+                ", promotion=" + (promotion != null ? promotion : "undefine") +
                 '}';
     }
 
@@ -64,7 +71,7 @@ public class LightNovel {
         return category;
     }
 
-    public void setCategory(LightNovelCategoryEnum category) {
-        this.category = category;
+    public LightNovelPromotionEnum getPromotion() {
+        return promotion;
     }
 }
