@@ -33,9 +33,5 @@ public class A213_CollectorsAndSummarizing {
 
         System.out.println(collect.getMax());
         System.out.println(collect.getSum());
-
-
-
-
     }
 }

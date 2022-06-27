@@ -2,6 +2,7 @@ package com.paulo.modulo10_programacao_funcional.domain;
 
 import com.paulo.modulo11_optional.model.Manga;
 import com.paulo.modulo12_streams.domain.LightNovel;
+import com.paulo.modulo12_streams.domain.LightNovelCategoryEnum;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,14 +42,13 @@ public abstract class ListGenerator {
 
     public static List<LightNovel> generateLightNovelsList() {
         return new ArrayList<>(List.of(
-           new LightNovel(1L, "Naruto", 2.88),
-           new LightNovel(2L, "Shingeki no kyogin", 5.24),
-           new LightNovel(3L, "Bleach", 9.20),
-           new LightNovel(4L, "Bersek", 1.38),
-           new LightNovel(5L,"Dragon ball", 10.23),
-           new LightNovel(6L, "Dota2 - Blood of dragon", 2.89),
-           new LightNovel(7L, "One Piece", 1.25),
-           new LightNovel(8L, "One Piece", 1.25)
+           new LightNovel(1L, "Naruto", 2.88, LightNovelCategoryEnum.ACTION),
+           new LightNovel(2L, "Shingeki no kyogin", 5.24, LightNovelCategoryEnum.TERROR),
+           new LightNovel(3L, "Bleach", 9.20, LightNovelCategoryEnum.DRAMA),
+           new LightNovel(4L, "Bersek", 1.38, LightNovelCategoryEnum.TERROR),
+           new LightNovel(5L,"Dragon ball", 10.23, LightNovelCategoryEnum.ACTION),
+           new LightNovel(6L, "Dota2 - Blood of dragon", 2.89, LightNovelCategoryEnum.TERROR),
+           new LightNovel(7L, "One Piece", 1.25, LightNovelCategoryEnum.ROMANCE)
         ));
     }
 }
