@@ -19,8 +19,8 @@ public class Members {
     }
 
     public String retrieveEmail () {
+        System.out.println(Thread.currentThread().getName() + " is checking if there are e-mails to send.");
         synchronized (emails) {
-            System.out.println(Thread.currentThread().getName() + " is checking if there are e-mails to send.");
             while(emails.size() == 0) {
                 if(!isOpen()) return null;
                 System.out.printf("There are not e-mails to be retrieved to %s, starting on wait mode.\n", Thread.currentThread().getName());
