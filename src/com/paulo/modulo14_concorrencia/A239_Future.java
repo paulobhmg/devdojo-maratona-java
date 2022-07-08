@@ -15,7 +15,7 @@ import java.util.concurrent.*;
 
    O método get() do Future pode ficar aguardando por muito tempo pelo resultado de uma requisição, portanto, é possível
    adicionar um timeOut, lançando exeção que deverá ser tratada, caso não consiga recuperar o valor. */
-public class A238_Future {
+public class A239_Future {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(1);
         Future<Double> request = executor.submit(() -> {
